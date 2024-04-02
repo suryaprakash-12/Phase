@@ -1,0 +1,143 @@
+1)What is a correct syntax to output "Hello World" in C?
+a)	printf("Hello World");  
+b)	System.out.printline("Hello World");
+c)	Console.WriteLine("Hello World");
+d)	cout << "Hello World";
+
+2) How do you insert COMMENTS in C code?
+a)	// This is a comment  
+b)	--  This is a comment
+c)	 # This is a comment
+d)	 * This is a comment
+
+3)When a variable is created in C, a memory address is assigned to the variable.
+a)	True   
+b) False
+
+4)In C, code statements must end with a semicolon (;)
+a) True    
+b) False
+
+5)How can you create a variable with the numeric value 5?
+a)int num = 5;       
+b)num = 5 int;
+c)val num = 5;
+d)num = 5;
+
+6)How can you create a variable with the floating number 2.8?
+a)	float num = 2.8;      
+b)	num = 2.8 float;
+c)	num = 2.8 double;
+d)	val num = 2.8;
+
+7)Which operator is used to add together two values?
+a)	The + sign      
+b)	The & sign
+c)	The * sign
+d)	The ADD keyword
+
+8)Which function is often used to output values and print text?
+a)	printf()  
+b)	write()
+c)	output()
+d)	printword()
+
+9)Which format specifier is often used to print integers?
+a)	%d     
+b)	%c
+c)	%f
+d)	%s
+
+10)Which operator can be used to compare two values?
+a)	==      
+b)	><
+c)	=
+d)	<>
+
+11)Which operator can be used to find the memory size (in bytes) of a data type or variable?
+a)	The sizeof property     
+b)	The length property
+c)	The len property
+d)	The sizer property
+
+12)Which keyword can be used to make a variable unchangeable/read-only?
+a)	readonly   
+b)	constant
+c)	final
+d)	const 
+
+13)What do we call the following? int myNumbers[] = {25, 50, 75, 100};
+a)	An array      
+b)	None of the above
+c)	A class
+d)	A pointer
+
+14)Array indexes start with:
+a) 0    
+b) 1
+
+15)How do you call a function in C?
+a)	myFunction();      
+b)	myFunction;
+c)	myFunction[];
+d)	(myFunction);
+
+16)How do you start writing an if statement in C?
+a)	if (x > y)        
+b)	if x > y
+c)	if x > y()
+d)	if x > y then
+
+17)How do you start writing a while loop in C?
+a)	while (x < y)         
+b)	while x < y
+c)	while x < y then
+d)	if x > y while
+
+18)Which keyword is used to return a value inside a function?
+a)	return     
+b)	break
+c)	get
+d)	void
+
+19)How do you start writing a for loop in C?
+a)	for (int i = 0; i < 5; i++)     
+b)	for (int i = 0; while < 5; i++)
+c)	for (int i = 0; switch < 5; i++)
+d)	for (x in y)
+
+20)Which statement can be used to select one of many code blocks to be executed?
+a)	switch      
+b)	break
+c)	default
+d)	when
+________________________________________
+21)Which statement is used to stop a loop?
+a)	break    
+b)	exit
+c)	stop
+d)	void
+
+22)Which keyword is used to create a class in C?
+a)	None of the above     Your answer  
+b)	class = myClass
+c)	class
+d)	class()
+
+23)What is ptr in the following code known as? int* ptr = &myAge;
+a)	A pointer      
+b)	An array
+c)	A parameter
+d)	A class
+
+24)In C, it is possible to inherit class properties and functions from one class to another.
+a)	False  
+b)	True
+
+25)Which keyword is used to create a structure?
+a)	Struct   
+b)	structure
+c)	structs
+d)	str
+
+
