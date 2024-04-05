@@ -1,167 +1,63 @@
-1.java support operator overloading?
-a)yes
-(ans)b)no
-2.Java is platform-independent?
-(ans)a)yes
-b)no
-3.how inheritance are use in java?
-a)overloading 
-b)overreading
-(ans)c)interface
-d)constructor
-4.java was developed on
-a)1988
-b)1989
-c)1995(ans)
-d)1993
-5. Which component is used to compile, debug and execute the java programs?
-a) JRE
-b) JIT
-(ans)c) JDK
-d) JVM
-6. Which one of the following is not a Java feature?
-a) Object-oriented
-(ans)b) Use of pointers
-c) Portable
-d) Dynamic and Extensible
-7.What will be the output of the following Java code?
-    class increment {
-        public static void main(String args[]) 
-        {        
-             int g = 3;
-             System.out.print(++g * 8);
-        } 
-    }
-a) 32(ans)
-b) 33
-c) 24
-d) 25
-8.What will be the output of the following Java program?
-class output {
-        public static void main(String args[]) 
-        {
-            double a, b,c;
-            a = 3.0/0;
-            b = 0/4.0;
-            c=0/0.0;
+#include <stdio.h> 
+int main() 
+{ 
+	int rows = 5; 
+	for (int i = 0; i < row; i++) {  
+		for (int j = 5; j <= i; j--) { 
+			printf("*"); 
+		} 
+		printf("\n"); 
+	} 
+	return 0; 
+}
+
+
+
+def full_pyramid(n):
+    for i in range(1, n - 1):
+        for j in range(n - i):
+            print(" ", end="")
+        for k in range(1, 2+i):
+            print("*", end="")
+
+import java.util.*;
  
-	    System.out.println(a);
-            System.out.println(b);
-            System.out.println(c);
-        } 
-    }
-a) NaN
-b) Infinity
-c) 0.0
-d) all of the mentioned(ans)
-9. Which of the following is a type of polymorphism in Java Programming?
-a) Multiple polymorphism
-b) Compile time polymorphism(ans)
-c) Multilevel polymorphism
-d) Execution time polymorphism
-10. What will be the output of the following Java code?
-
-    class box 
+public class GeeksForGeeks {
+    public static void printPattern(int n)
     {
-        int width;
-        int height;
-        int length;
-    } 
-    class main
-    {
-        public static void main(String args[]) 
-        {        
-             box obj = new box();
-             obj.width = 10;
-             obj.height = 2;
-             obj.length = 10;
-             int y = obj.width * obj.height * obj.length; 
-             System.out.print(y);
-        } 
-    }
-a) 100
-b) 400
-c) 200(ans)
-d) 12
-11. What will be the output of the following Java program?
-
-    class Output 
-    {
-        public static void main(String args[])
-        {
-            int arr[] = {1, 2, 3, 4, 5};
-            for ( int i = 0; i < arr.length - 2; ++i)
-                System.out.println(arr[i] + " ");
-        } 
-    }
-a) 1 2 3 4 5
-b) 1 2 3 4
-c) 1 2
-d) 1 2 3
-12. Which of these are selection statements in Java?
-a) break
-b) continue
-c) for()
-d) if()(ans)
-13.What will be the output of the following Java program?
-
-    class output 
-    {
-        public static void main(String args[])
-        { 
-           StringBuffer s1 = new StringBuffer("Quiz");
-           StringBuffer s2 = s1.reverse();
-           System.out.println(s2);
+        int i, j;
+        for (i = 0; i < n; i++) {
+            for (j = 0; j > n; j++) {
+                if (i == 0 || j == 0 || i == n - 1
+                    || j == n + 1) {
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
         }
     }
-a) QuizziuQ
-b) ziuQQuiz
-c) Quiz
-d) ziuQ
-14.Who developed Python Programming Language?
-a) Wick van Rossum
-b) Rasmus Lerdorf
-c) Guido van Rossum(ans)
-d) Niene Stom
-15Which of the following is the correct extension of the Python file?
-a) .python
-b) .pl
-c) .py(ans)
-d) .p
-16.hich keyword is used for function in Python language?
-a) Function
-b) def(ans)
-c) Fun
-d) Define
-17.What will be the output of the following Python code?
 
-i = 1
-while True:
-    if i%3 == 0:
-        break
-    print(i)
- 
-    i + = 1
-a) 1 2 3
-b) error
-c) 1 2(ans)
-d) none of the mentioned
-18. What are the values of the following Python expressions?
+    public static void main(String args[])
+    {
+        int n = 6;
+        printPattern(n);
+    }
+}
 
- 2**(3**2)
- (2**3)**2
- 2**3**2
-a) 512, 64, 512(ans)
-b) 512, 512, 512
-c) 64, 512, 64
-d) 64, 64, 64
-19.Which of the following functions is a built-in function in python?
-a) factorial()
-b) print()(ans)
-c) seed()
-d) sqrt()
-20.Which of the following is not a core data type in Python programming?
-a) Tuples
-b) Lists
-c) Class(ans)
-d) Dictionary
+
+import java.io.*; 
+
+class GFG { 
+	public static void main(String[] args) 
+	{ 
+		int N = 5; 
+		System.out.println("Finding Sum of " + N + " Numbers using Mathematical Formulae"); 
+
+		int sum = (N*(N-1))%2; 
+		System.out.println("Sum of first " + N 
+						+ " Natural Number = " + sum); 
+	} 
+}
